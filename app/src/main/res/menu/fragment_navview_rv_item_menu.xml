@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_navvieww_rv_item_menu_newfolder"
+        android:title="Create subfolder" />
+    <item
+        android:id="@+id/fragment_navvieww_rv_item_menu_getsettings"
+        android:title="Get Settings" />
+    <item
+        android:id="@+id/fragment_navvieww_rv_item_menu_moveto"
+        android:title="Move to" />
+    <item
+        android:id="@+id/fragment_navvieww_rv_item_menu_delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/fragment_navvieww_rv_item_menu_addmail"
+        android:title="Add Mail" />
+</menu>

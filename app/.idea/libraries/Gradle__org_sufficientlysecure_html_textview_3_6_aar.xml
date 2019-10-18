@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.sufficientlysecure:html-textview:3.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b35f92074c7cf8ddf9d9a570de00d2c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b35f92074c7cf8ddf9d9a570de00d2c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sufficientlysecure/html-textview/3.6/a9ed975587a8260d346ee9fa3d91e5c4193a5587/html-textview-3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

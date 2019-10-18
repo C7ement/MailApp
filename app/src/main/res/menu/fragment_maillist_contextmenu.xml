@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fragment_maillist_menu_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/fragment_maillist_menu_settings"
+        android:orderInCategory="101"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fragment_maillist_menu_checkable_item"
+        android:orderInCategory="102"
+        android:title="Display content"
+        android:checkable="true"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fragment_maillist_menu_newmail"
+        android:orderInCategory="102"
+        android:title="New Mail"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fragment_maillist_menu_refresh"
+        app:showAsAction="never"
+        android:title="@string/menu_refresh"/>
+
+</menu>

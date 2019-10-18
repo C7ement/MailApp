@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Mailbox</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Mailbox not saved because one of the fields is empty.</string>
+    <string name="enterMailbox">Mailbox Name</string>
+    <string name="enterHost">Host Adress</string>
+    <string name="enterUsername">Username</string>
+    <string name="enterPassword">Password</string>
+    <string name="saveButton">Save</string>
+    <string name="title_activity_mailbox">MailboxActivity</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="content">Content</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="data">Data</string>
+    <string name="moveto">Move to</string>
+    <string name="action_savetofolder">Save to folder</string>
+    <string name="title_activity_teeest">teeest</string>
+</resources>

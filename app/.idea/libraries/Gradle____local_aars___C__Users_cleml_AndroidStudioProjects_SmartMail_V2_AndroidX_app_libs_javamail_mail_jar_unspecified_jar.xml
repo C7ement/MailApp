@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:C.\Users\cleml\AndroidStudioProjects\SmartMail_V2_AndroidX\app\libs\javamail\mail.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/javamail/mail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

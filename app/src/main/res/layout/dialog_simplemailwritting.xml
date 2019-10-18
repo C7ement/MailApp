@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/from"
+            android:paddingLeft="@dimen/text_padding_horizontal"
+            android:paddingTop="@dimen/text_padding_vertical"
+            android:paddingRight="@dimen/text_padding_horizontal"
+            android:paddingBottom="@dimen/text_padding_vertical"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/border1_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fragment_mailwritting_border_height"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/to"
+            android:paddingLeft="@dimen/text_padding_horizontal"
+            android:paddingTop="@dimen/text_padding_vertical"
+            android:paddingRight="@dimen/text_padding_horizontal"
+            android:paddingBottom="@dimen/text_padding_vertical"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_simplemailwriting_from"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingLeft="@dimen/text_padding_horizontal"
+        android:paddingTop="@dimen/text_padding_vertical"
+        android:paddingRight="@dimen/text_padding_horizontal"
+        android:paddingBottom="@dimen/text_padding_vertical"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/border1_right"
+        android:layout_height="@dimen/fragment_mailwritting_border_height"
+        android:layout_width="0dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_simplemailwriting_from" />
+
+    <EditText
+        android:id="@+id/dialog_simplemailwriting_to"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:paddingLeft="@dimen/text_padding_horizontal"
+        android:paddingTop="@dimen/text_padding_vertical"
+        android:paddingRight="@dimen/text_padding_horizontal"
+        android:paddingBottom="@dimen/text_padding_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/border1_right" />
+
+    <EditText
+        android:id="@+id/dialog_simplemailwriting_subject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/subject"
+        android:inputType="textPersonName"
+        android:minWidth="30dp"
+        android:paddingLeft="@dimen/text_padding_horizontal"
+        android:paddingTop="@dimen/text_padding_vertical"
+        android:paddingRight="@dimen/text_padding_horizontal"
+        android:paddingBottom="@dimen/text_padding_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/border2" />
+
+    <View
+        android:id="@+id/border2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_mailwritting_border_height"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_simplemailwriting_to" />
+
+    <EditText
+        android:id="@+id/dialog_simplemailwriting_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/content"
+        android:inputType="textMultiLine"
+        android:minWidth="30dp"
+        android:minLines="1"
+        android:paddingLeft="@dimen/text_padding_horizontal"
+        android:paddingTop="@dimen/text_padding_vertical"
+        android:paddingRight="@dimen/text_padding_horizontal"
+        android:paddingBottom="@dimen/text_padding_vertical"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/border3" />
+
+    <View
+        android:id="@+id/border3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_mailwritting_border_height"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_simplemailwriting_subject"
+        tools:layout_editor_absoluteX="-8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
