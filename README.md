@@ -1,6 +1,6 @@
 # Android Email Client
 
-Le but de ce projet et de faire un client mail avec toutes les fonctionnalités classiques afin de pouvoir ensuite le modifier et ajouter de nouvelles fonctionnalités.
+Le but de ce projet est de faire un client mail avec toutes les fonctionnalités classiques afin de pouvoir ensuite le modifier et ajouter de nouvelles fonctionnalités.
 
 Screenshots:
 
